@@ -21,8 +21,6 @@ namespace {
 constexpr uint8_t USB_CLASS_AUDIO = 0x01;
 constexpr uint8_t USB_SUBCLASS_AUDIOCONTROL = 0x01;
 constexpr uint8_t USB_SUBCLASS_AUDIOSTREAMING = 0x02;
-constexpr uint8_t USB_DT_CS_INTERFACE = 0x24;
-constexpr uint8_t USB_DT_CS_ENDPOINT = 0x25;
 
 // UAC 1.0 / 2.0 CS_INTERFACE subtypes
 constexpr uint8_t UAC_AS_GENERAL = 0x01;
