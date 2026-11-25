@@ -10,5 +10,4 @@ find_library(log-lib log)
 
 target_link_libraries(bitperfect_usb
     ${log-lib}
-    pthread
 )
