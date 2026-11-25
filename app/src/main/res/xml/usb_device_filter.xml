@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- USB Audio Class (class 1 = Audio, subclass 1 = AudioControl, subclass 2 = AudioStreaming) -->
+    <usb-device class="1" />
+    <!-- Composite devices (class 0 / 239) that expose an Audio interface are matched at interface level -->
+    <usb-device class="0" />
+    <usb-device class="239" />
+</resources>
