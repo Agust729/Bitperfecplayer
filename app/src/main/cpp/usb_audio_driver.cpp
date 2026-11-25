@@ -18,7 +18,6 @@
 namespace bitperfect {
 
 namespace {
-constexpr uint8_t USB_CLASS_AUDIO = 0x01;
 constexpr uint8_t USB_SUBCLASS_AUDIOCONTROL = 0x01;
 constexpr uint8_t USB_SUBCLASS_AUDIOSTREAMING = 0x02;
 
